@@ -1,0 +1,107 @@
+section {
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .invited img {
+    width: 12rem;
+    object-fit: cover;
+    height: 12rem;
+    transition: 0.3s;
+}
+section .invited div {
+    padding: 15px;
+    color: #fff;
+    background-color: #113a53;
+}
+section .invited h3 {
+    color: #76cbff;
+    text-transform: uppercase;
+}
+section .invited p {
+    width: 12rem;
+    text-align: justify;
+}
+section .invited img:hover {
+    transform: scale(1.05);
+    border-top-right-radius: 0;
+
+}
+
+section:nth-child(1){
+    background: rgb(244,244,244);
+background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+    padding-bottom: 3rem;
+}
+section:nth-child(2){
+    background-color: #3b89b9;
+}
+section:nth-child(3){
+    background-color: #113a53;
+}
+section:nth-child(4){
+    background-color: #3b89b9;
+}
+section:nth-child(5){
+    background: rgb(244,244,244);
+background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+}
+
+section .invited {
+    display: flex;
+    gap: 2rem;
+    overflow: visible;
+}
+section .event, section .video {
+    display: flex;
+    width: 40rem;
+    flex-wrap: wrap;
+}
+section .video{
+    position: relative;
+}
+section .video video{
+    border-radius: 15px;
+    z-index: 10;
+}
+.video::after  {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+    left: -5px;
+    bottom: -5px;
+    box-shadow: 0 0 8px 5px #0000002b;
+}
+.video:hover .video::after {
+    cursor: pointer;
+ 
+}
+section .event img {
+    width: 33.33333333333333%;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+.invited{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.invited img{
+}
+
+.event, .video{
+    width: 100% !important;
+}
+section .event img {
+    width: 50% !important;
+}
+}

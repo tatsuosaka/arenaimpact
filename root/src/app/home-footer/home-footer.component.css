@@ -1,0 +1,45 @@
+footer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    background: rgb(1,1,1);
+background: linear-gradient(0deg, rgba(1,1,1,1) 0%, rgba(3,3,3,1) 100%);
+}
+
+footer img {
+    width: 6rem;
+
+}
+
+.social img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social a:hover{
+    box-shadow: 0 0 8px 3px #ffffff59;
+    cursor: pointer;
+    user-select: none;
+}
+
+.social a {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: 0.3s;
+}
