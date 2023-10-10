@@ -1,0 +1,48 @@
+section {
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .invited img {
+    width: 12rem;
+    object-fit: cover;
+    height: 12rem;
+    border-radius: 50%;
+    outline: 2px solid #3b89b9;
+    outline-offset: 0.5rem;
+
+}
+
+section:nth-child(1){
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+section:nth-child(2){
+    background-color: #3b89b9;
+}
+section:nth-child(3){
+    background-color: #113a53;
+}
+
+section .invited {
+    display: flex;
+    gap: 2rem;
+}
+section .event, section .lorem {
+    display: flex;
+    width: 40rem;
+    flex-wrap: wrap;
+}
+section .lorem div {
+    width: 33.33333333333333%;
+    height: 10rem;
+    background-color: #a1a1a1;
+}
+section .event img {
+    width: 33.33333333333333%;
+    object-fit: cover;
+}
