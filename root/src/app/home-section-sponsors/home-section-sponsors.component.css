@@ -20,31 +20,33 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(244, 244, 244);
+    color: #fff;
+  background: rgb(50, 119, 162);
   background: linear-gradient(
     0deg,
-    rgba(244, 244, 244, 1) 0%,
-    rgba(255, 255, 255, 1) 35%,
-    rgba(255, 255, 255, 1) 100%
+    rgba(50, 119, 162, 1) 0%,
+    rgba(59, 137, 185, 1) 100%
   );
   }
 
-  section h2 {
-    text-transform: uppercase;
-    user-select: none;
-  }
-
-section .exhibitors {
+  section .sponsors {
     overflow-x: scroll;
     justify-content: space-between;
-}
+  }
 
-section .exhibitors img{
+  section .sponsors p {
+    text-align: center;
+  }
+  section .sponsors {
+    display: flex;
+    gap: 3rem;
+  }
+  section .sponsors img {
     width: 8rem;
     height: 8rem;
-}
-
-section .exhibitors{
+  }
+  
+  section .sponsors {
     display: flex;
     gap: 2rem;
     width: 90%;
@@ -52,9 +54,12 @@ section .exhibitors{
     justify-content: space-evenly;
     align-items: center;
     height: 16rem;
-}
-
-section .exhibitors div{
+  }
+  section h2 {
+    text-transform: uppercase;
+    user-select: none;
+  }
+  section .sponsors div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,4 +70,8 @@ section .exhibitors div{
     border-left: 5px solid #3b89b9;
     box-shadow: 0px 0px 10px 4px #0000005e;
     height: 11rem;
-}
+  }
+  section .sponsors img {
+    width: 8rem;
+    height: 8rem;
+  }

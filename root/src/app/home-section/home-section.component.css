@@ -1,15 +1,3 @@
-::-webkit-scrollbar {
-  height: 4px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-  background: #002f3f;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #001f29;
-}
 section {
   padding: 3rem 0;
 
@@ -93,24 +81,6 @@ section:nth-child(4) {
     rgba(59, 137, 185, 1) 100%
   );
 }
-section:nth-child(5) {
-  background: rgb(244, 244, 244);
-  background: linear-gradient(
-    0deg,
-    rgba(244, 244, 244, 1) 0%,
-    rgba(255, 255, 255, 1) 35%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-section:nth-child(6) {
-  color: #fff;
-  background: rgb(50, 119, 162);
-  background: linear-gradient(
-    0deg,
-    rgba(50, 119, 162, 1) 0%,
-    rgba(59, 137, 185, 1) 100%
-  );
-}
 
 section .invited {
   display: flex;
@@ -131,45 +101,6 @@ section .video {
 section .video {
   position: relative;
   transition: 0.3s;
-}
-section .sponsors p {
-  text-align: center;
-}
-section .sponsors {
-  display: flex;
-  gap: 3rem;
-}
-section .sponsors img {
-  width: 8rem;
-  height: 8rem;
-}
-section .exhibitors,
-section .sponsors {
-  display: flex;
-  gap: 2rem;
-  width: 90%;
-  overflow-x: auto;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 16rem;
-}
-section .exhibitors div,
-section .sponsors div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 15px;
-  border-bottom: 5px solid #3b89b9;
-  border-left: 5px solid #3b89b9;
-  box-shadow: 0px 0px 10px 4px #0000005e;
-  height: 11rem;
-}
-section .exhibitors img,
-section .sponsors img {
-  width: 8rem;
-  height: 8rem;
 }
 section h2 {
   text-transform: uppercase;
@@ -245,11 +176,8 @@ section .know-more button:hover {
   .invited p {
     width: 100% !important;
   }
-  section .exhibitors,
-  section .sponsors {
-    overflow-x: scroll;
-    justify-content: space-between;
-  }
+
+
   .video video {
     height: 25rem;
     object-fit: cover;

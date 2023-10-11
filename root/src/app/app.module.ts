@@ -9,6 +9,7 @@ import { HomeNavComponent } from './home-nav/home-nav.component';
 import { HomeSectionComponent } from './home-section/home-section.component';
 import { HomeFooterComponent } from './home-footer/home-footer.component';
 import { HomeSectionExhibitorsComponent } from './home-section-exhibitors/home-section-exhibitors.component';
+import { HomeSectionSponsorsComponent } from './home-section-sponsors/home-section-sponsors.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeSectionExhibitorsComponent } from './home-section-exhibitors/home-s
     HomeNavComponent,
     HomeSectionComponent,
     HomeFooterComponent,
-    HomeSectionExhibitorsComponent
+    HomeSectionExhibitorsComponent,
+    HomeSectionSponsorsComponent
   ],
   imports: [
     BrowserModule,
