@@ -7,7 +7,7 @@ footer {
     color: #fff;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 3rem 0;
     background: rgb(1,1,1);
 background: linear-gradient(0deg, rgba(1,1,1,1) 0%, rgba(3,3,3,1) 100%);
 }
